@@ -1,0 +1,134 @@
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+
+
+\cvname{Sri Kumar} % Your name
+\cvjobtitle{} % Job title/career
+
+\cvdate{4th January 1992} % Date of birth
+\cvaddress{srinivas.suresh.kumar@gmail.com} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+1 667-228-3968} % Phone number
+\cvsite{https://bit.ly/2BzbGnb} % Personal website
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 Education
+%----------------------------------------------------------------------------------------
+
+\Education{} % To have no Education section, just remove all the text and leave \Education{}
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{Languages:C, C++, Python, Java, Ocaml, Ruby
+\newline \newline  WebDev : HTML, CSS, Javascript, Flask, NodeJS, Heroku, Bootstrap
+\newline \newline  Frameworks \& Platforms :  Electron,  Android, Android Internals
+\newline \newline  Technologies \& Practices : Git, CI/CD, Agile Development, Code Review, Object Oriented dev, Functional Programming, Computer vision, CUDA, Machine Learning, NoSQL, Embedded Programming, System Design}
+
+
+
+\ExtraCurricular{Amatuer Kickboxer
+\newline\newline Avid Trivia quizzer
+\newline \newline Elected Editor of the Fourth Estate and Community Outreach by landslide 5000 votes in high schools
+\newline \newline Participated in a tour of high schools in rural Tamil Nadu to impart Computer Science Education as part of the National Service Scheme
+\newline\newline Taught Computer science to high school children whose first language was not English and helped the entire school clear their 12\textsuperscript{th} grade qualifier exams as part of my activities with the Jayalakshmi Narayanaswami guild of service
+\newline\newline Self taught Heavy Metal guitarist }
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience and Internships}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{Since Feb'18}{\hspace{5} Software Engineer}{Intel Corp., Hillsboro, Oregon}{\textit{Design, build and maintain in house infrastructure tools}
+    	\begin{itemize}
+    	    \item Made several tools to automatically detect and allocate resources like disk-space and CPU resources to projects
+    	    \item Leading an effort to unify Intel's internal tool release infrastructure
+    	\end{itemize}
+	}
+	
+	\twentyitem{Jun'17-Sep'17}{\hspace{5} Software Engineer Intern}{Intel Corp., Hillsboro, Oregon}{\textit{Designed, built and maintained in house tools to monitor regressions and infrastructure}
+    	\begin{itemize}
+    	    \item Designed and built a command line property file specification and construction system for use with in house monitoring and regression tools
+    	    \item Patched several bugs in in-house regression tools
+    	    \item Implemented well received new features in monitoring tools that allowed for more precise and informative testing
+    	\end{itemize}
+	}
+	\twentyitem{Jun'14-Dec'15}{\hspace{5} Software Development Engineer in Test}{Amazon Inc., Chennai, India}{\textit{Developed a deep understanding of the internals of Android and proficiency with several test frameworks and programming languages}
+    	\begin{itemize} 
+    	    \item Created and evaluated test frameworks that measure performance metrics of the Kindle Fire devices
+    	    \item Created a test framework leveraging Computer Vision to measure the launch time of Amazon's first party applications. This displaced all
+previous frameworks and was very well received at Amazon
+    	    \item Mentored new interns and saw them through to on-boarding
+    	    \item Hired from among 3500 applicants from across India's premier technical colleges
+    	    \item Consistently received \textbf{Outstanding} in performance reviews [References on request]
+    	\end{itemize}
+	}
+	
+	
+	%\twentyitem{<dates>}{<title>}{<location>}{<description>}
+\end{twenty}
+
+
+%----------------------------------------------------------------------------------------
+%	 PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Projects and Publications}
+
+\begin{twenty} % Environment for a short list with no descriptions
+	\twentyitem{Apr'18}{Halo detection optimized to run on GPUs} {}{Implemented the Count-Sketch algorithm using CUDA to detect heavy hitters in a stream of star location data to locate star clusters.
+Publication Link: https://arxiv.org/pdf/1711.00975.pdf}
+	\twentyitem{Jan-May'17}{ASLA - Completed as part of coursework for "Object Oriented Systems and Engineering" at Johns Hopkins}{}{A desktop application written in Python and Qt that leverages Machine Learning and uses a Leap Motion controller to help interpret American
+Sign Language(ASL). The app was selected as the \textbf{Outstanding Application} of the course was earmarked as a template for projects to base their
+workflows on in future iterations of the course. The app uses mLab to host MongoDB instances, Heroku to serve web pages and host REST
+servers and scikit-learn to perform Machine learning}
+
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Achievements and Awards}
+
+\begin{twenty} % Environment for a short list with no descriptions
+	\twentyitem{Dec'18}{Outstanding Course Assistant Nomination}{}{Was nominated by the student population at Johns Hopkins to receive the outstanding Course Assistant Award for my efforts to help guide and instruct students in the areas of Computer Graphics and Object Oriented Design}
+	\twentyitem{Mar'13}{Runner Up - Save the Hacker}{}{Was part of a team that was awarded second place as the first pan-India Freshworks Inc. hackathon, "Save the Hacker" for creating an intelligent blood donation application for Android devices that used Google cloud messaging and intelligent donor identification to quickly find blood donors for people in need of blood}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twenty}
+
+\end{document} 
